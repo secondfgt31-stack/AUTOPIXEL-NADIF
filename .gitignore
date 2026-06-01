@@ -19,5 +19,3 @@ logs/
 # Temporary local debug helpers
 tmp_*.py
 
-# Local proxy list
-proxies.txt
