@@ -44,7 +44,7 @@ logger = logging.getLogger(__name__)
 AWAIT_2FA_CODE = 10
 AWAIT_MANUAL_VERIFICATION = 11
 LAST_CHECK_TIME: dict[int, float] = {}
-CHECK_OFFER_COOLDOWN = 5 * 60  # 5 minutes between checks per user
+CHECK_OFFER_COOLDOWN = 10  # 5 minutes between checks per user
 CHROME_SEMAPHORE = asyncio.Semaphore(1)
 DIAGNOSTIC_I18N_KEYS = {
     (
